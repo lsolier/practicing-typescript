@@ -1,8 +1,20 @@
 "use strict";
 (function () {
     var message = 'Hola';
-    if (true) {
-        var message_1 = 'Mundo';
-    }
-    console.log(message);
+    var numero = 123;
+    var cualquiercosa;
+    var booleano = true;
+    var hoy = new Date();
+    cualquiercosa = message;
+    cualquiercosa = numero;
+    cualquiercosa = booleano;
+    cualquiercosa = hoy;
+    var spiderman = {
+        nombre: 'Peter',
+        edad: 30
+    };
+    spiderman = {
+        nombre: 'Luis',
+        edad: 26
+    };
 })();
