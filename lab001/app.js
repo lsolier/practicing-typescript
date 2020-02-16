@@ -1,10 +1,8 @@
 "use strict";
 (function () {
-    function saludar(nombre) {
-        console.table('Hola ' + nombre); // Hola Logan
+    var message = 'Hola';
+    if (true) {
+        var message_1 = 'Mundo';
     }
-    var wolverine = {
-        nombre: 'Logan'
-    };
-    saludar(wolverine.nombre);
-});
+    console.log(message);
+})();

@@ -1,12 +1,8 @@
 (function() {
-    function saludar(nombre:string) {
-        console.table( 'Hola ' + nombre ); // Hola Logan
+    let message = 'Hola';
+    if (true) {
+        let message = 'Mundo';
     }
-    
-    const wolverine = {
-        nombre: 'Logan'
-    };
-    
-    saludar(wolverine.nombre);
-})
+    console.log(message);
+})();
 
